@@ -1,0 +1,54 @@
+/* body{
+    background-color: aqua;
+} */
+
+*{
+   margin: 0;
+   padding:0; 
+}
+.row,.heading,.form-group{
+ margin:10px;
+ padding:10px;
+}
+.buttonHolder{ text-align: center; }
+
+/* #resume-form
+{
+    display: none;
+} */
+
+#resume-template{
+    display: none;
+}
+.myimg{
+    border-radius: 50%;
+    width:200px;
+}
+
+/* You need @media print in you css. Just add this at your bottom ofyour CSS file, */
+
+@media print {
+    #print {display: none;}
+}
+
+.background{
+    background-color: rgb(38, 222, 235);
+}
+
+
+/* .form-group{
+    margin:10px;
+ padding:10px;
+
+} */
+
+/* #nameField{
+    width:50%;
+    align-items: center;
+} */
+
+/* .fullcontentcover{
+    border: 2px solid rgb(6, 22, 58);
+    /* position:fixed; */
+    /* background-color: rgb(67, 247, 148);
+} */ 
